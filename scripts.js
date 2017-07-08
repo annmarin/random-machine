@@ -14,7 +14,7 @@ function createTweet(input) {
     var quoteAuthor = data.title;
 
     if (!quoteAuthor.length) {
-       quoteAuthor = 'Unknown author';
+        quoteAuthor = 'Unknown author';
     }
     var tweetText = "Quote of the day: " + quoteText + "Author: " + quoteAuthor;
 
@@ -25,7 +25,7 @@ function createTweet(input) {
         $('.quote').text(quoteText);
         $('.author').text("Author: " + quoteAuthor);
         $('.tweet').attr('href', tweet);
-  }
+    }
 }
 
 $(document).ready(function() {
