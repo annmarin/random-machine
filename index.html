@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Random quote machine</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <title>Random quote machine</title>    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -12,17 +12,19 @@
         <header>
             <h1>Random quote machine</h1>
         </header>
-        <div class="box">
-            <h2 class="quote"></h2>
-            <h3 class="author"></h3>
-        </div>
-        <div>
-            <button class="trigger"> Random quote </button>
-            <a href="#" target="_blank" class="tweet"><i class="fa fa-twitter fa-lg"></i> Tweet</a>
-        </div>
+        <div class="container">
+            
+                <h2 class="box quote"></h2>
+                <h3 class="box author"></h3>
+            
+            <div class="button-position">
+                <button class="box trigger"> Random quote </button><br>
+                <a href="#" target="_blank" class="box tweet"><i class="fa fa-twitter fa-lg"></i> Tweet</a>
+            </div>
+        </div> <!-- .container -->
     </main>
-
     <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
+
